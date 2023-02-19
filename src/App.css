@@ -1,0 +1,50 @@
+.App{
+text-align: center;
+height: 115vh;
+background-color: blueviolet;
+font-style: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 50px;
+}
+.score{
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.choice{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+.computer-hand{
+    width: 250px;
+}
+.user-hand{
+    width: 250px;
+    transform: rotateY(180deg);
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.buttom{
+    width: 100px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.result{
+    padding:50px ;
+}
